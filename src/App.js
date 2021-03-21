@@ -23,10 +23,9 @@ export class App extends Component {
                 fields = "name,email,picture"
                 // onClick={componentClicked}
                 callback = { this.responseFacebook }
-                /> <
-                /div>)
-            )
-        }
+                /> </div > )
+        )
     }
+}
 
-    export default App
+export default App
